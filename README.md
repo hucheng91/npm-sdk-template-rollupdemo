@@ -41,7 +41,7 @@ publish 根据 package.json 的version 字段 打个 tag 到 gitlab 上
   来切分开发和正式环境   like ` npm publish --tag beta `   ,[网上例子](https://cnodejs.org/topic/537b47d1cbcc39634983b739)
 -  **版本升级**
    SDK改动比较大的时候的时候要注意 比方你的 SDK目前版本是 1.0.9,然后打包方式 从 Babel6 升到了 Babel7 ,想升个版本,
-    这个时候就要注意了，依赖的你SDK的项目A一般是这样使用的`@qtt/example-sdk: ^1.0.5`,那这个时侯你的SDK版本改成1.0.10,然后执行了 `npm publish`，
+    这个时候就要注意了，依赖的你SDK的项目A一般是这样使用的`example-sdk: ^1.0.5`,那这个时侯你的SDK版本改成1.0.10,然后执行了 `npm publish`，
     项目就会报错，所以为了处理这个问题,你需要把 version 改成 `2.0.x` 这样就不会影响到项目A
 
 
