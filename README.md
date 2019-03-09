@@ -1,4 +1,4 @@
-# qtt npm 仓库 js sdk 公共打包模板
+#  npm 仓库 js sdk 公共打包模板
 
 
  我们用 rollup 来打包，支持  `main` 和 `module`  2种入口
