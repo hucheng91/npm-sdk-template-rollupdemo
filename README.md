@@ -27,9 +27,11 @@ publish 根据 package.json 的version 字段 打个 tag 到 gitlab 上
 |    |__ index.umd.js
 |—— test
 |    |—— test.js // 单测文件,
-|__ rollup.config.js  // rollup 配置 
+|
+|__ babel.config.js  // 已经 配置了 按需加载 polyfill 和 transform-runtime 支持
+|
 |__ build
-     |__ babel.config.js  // 已经 配置了 按需加载 polyfill 和 transform-runtime 支持
+   |__rollup.config.js  // rollup 配置 
      
  ```
  
