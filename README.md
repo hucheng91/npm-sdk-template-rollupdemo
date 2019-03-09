@@ -1,7 +1,7 @@
 #  npm 仓库 js sdk 公共打包模板
 
 
- 我们用 rollup 来打包，支持  `main` 和 `module`  2种入口
+ 用 rollup 来打包，支持  `main` 和 `module`  2种入口
   
  这样在依赖方就很好的使用  tree shaking
  在 pacakge.json 中 暴露出`main` 和 `module` 2个入口
@@ -31,7 +31,7 @@ publish 根据 package.json 的version 字段 打个 tag 到 gitlab 上
 |__ babel.config.js  // 已经 配置了 按需加载 polyfill 和 transform-runtime 支持
 |
 |__ build
-   |__rollup.config.js  // rollup 配置 
+      |__rollup.config.js  // rollup 配置 
      
  ```
  
