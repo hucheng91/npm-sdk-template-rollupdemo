@@ -1,5 +1,5 @@
 {
-  "name": "npm-sdk-template",
+  "name": "{{projectName}}",
   "version": "1.0.9",
   "description": "npm sdk template",
   "main": "./lib/index.cjs.js",
